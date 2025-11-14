@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeSensei - Your Anime Guide</title>
+    <link rel="stylesheet" href="AnimeSensei/AnimeSenseistyle2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Patrick+Hand&family=Indie+Flower&family=Schoolbell&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <div class="logo-image"></div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                    <li><a href="#data">Data</a></li>
+                    <li><a href="#devlog">DevLog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <!-- Logo au lieu du texte -->
+            <div class="hero-logo">
+                <img src="AnimeSensei_Logo.png" alt="AnimeSensei - Your personal teacher to discover anime perfectly suited to your tastes">
+            </div>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Type your favorite anime here...">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations">
+        <div class="container">
+            <h2 class="section-title">Recommendations</h2>
+            <div class="recommendation-grid">
+                <!-- Filled dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Section -->
+    <section id="data" class="data">
+        <div class="container">
+            <h2 class="section-title">Data</h2>
+            <div class="data-content">
+                <div class="data-text">
+                    <p>Add dataset visualizations</p>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DevLog Section -->
+    <section id="devlog" class="devlog">
+        <div class="container">
+            <h2 class="section-title">DevLog</h2>
+            <div class="devlog-timeline">
+                <!-- Entry 1 -->
+                <div class="devlog-entry">
+                    <div class="devlog-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        Until September 23, 2025
+                    </div>
+                    <div class="devlog-content">
+                        <h3>Project Sheet Finalization</h3>
+                        <p>Identification of main tasks</p>
+                        <p>1. Collect data via MyAnimeList API</p>
+                        <p>2. Exploratory analysis of selected data</p>
+                        <p>3. Develop recommendation algorithm</p>
+                        <p>4. Evaluate each model</p>
+                    </div>
+                </div>
+                
+                <!-- Entry 2 -->
+                <div class="devlog-entry">
+                    <div class="devlog-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        September 23, 2025
+                    </div>
+                    <div class="devlog-content">
+                        <h3>First Week</h3>
+                        <p>- Testing MAL API with requests</p>
+                        <p>- Created a function to automatically collect data and store it in a CSV file (successful with top 500 anime)</p>
+                    </div>
+                </div>
+                
+                <!-- Entry 3 -->
+                <div class="devlog-entry">
+                    <div class="devlog-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        Coming Soon
+                    </div>
+                    <div class="devlog-content">
+                        <h3>To be filled as progress continues</h3>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+
+                <!-- Entry 4 -->
+                <div class="devlog-entry">
+                    <div class="devlog-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        Coming Soon
+                    </div>
+                    <div class="devlog-content">
+                        <h3>To be filled as progress continues</h3>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+
+                <!-- Entry 5 -->
+                <div class="devlog-entry">
+                    <div class="devlog-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        Coming Soon
+                    </div>
+                    <div class="devlog-content">
+                        <h3>To be filled as progress continues</h3>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>During summer vacation, I found myself binge-watching anime on Netflix... until I was completely lost by the overwhelming number of choices. And I thought: 
+                        <strong>"If only someone could help me find exactly what I would love..."</strong>
+                    </p> 
+                    <p>That's how 
+                        <strong>AnimeSensei</strong> 
+                        was born: a personal anime teacher that understands your tastes. Our algorithm analyzes what you like (and what you don't) to provide recommendations perfectly tailored to your profile.</p> 
+                    <p>Using data from MyAnimeList and a data-driven approach, we want to help all anime enthusiasts find their next gem! 
+                    </p>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+                <div class="about-image">
+                    <img src="workspace.jpeg" alt="Workspace" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>AnimeSensei</h3>
+                    <p>Your anime sensei already knows your next favorite show</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#recommendations">Recommendations</a></li>
+                        <li><a href="#data">Data</a></li>
+                        <li><a href="#devlog">DevLog</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://github.com/alicekanon87" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><span class="email-link"><i class="fas fa-envelope"></i> alice.ngbesso@psl.eu</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 AnimeSensei</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="AnimeSensei/AnimeSensei.py"></script>
+    <script src="AnimeSensei/AnimeSenseiAffiche.js"></script>
+</body>
+</html>
